@@ -38,11 +38,11 @@
 ## Configuration
 
 Put this code where you want to show dropdown (header, footer)
-<?php
-echo $this->getLayout()
-->createBlock('Idlbridge\Storelist\Block\Website\Block')
-->setTemplate('Idlbridge_Storelist::website/block.phtml')
-->toHtml();
+  <?php
+     echo $this->getLayout()
+     ->createBlock('Idlbridge\Storelist\Block\Website\Block')
+     ->setTemplate('Idlbridge_Storelist::website/block.phtml')
+     ->toHtml();
     ?>
 
 
